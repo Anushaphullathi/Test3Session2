@@ -21,7 +21,7 @@ int find_largest(int n, int a[n])
       if(largest<a[i])
       {
         id=i;
-        largest=a[i]
+        largest=a[i];
       }
     }
   return largest;
@@ -35,7 +35,6 @@ int main()
   int s,n,a,largest;
   s=input_size();
   input_array(n,a);
-
   out_put(n,a,largest);
   return 0;
 }
